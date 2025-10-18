@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: CRISS-AI
+    name: MSELA-CHUI-XMD
     env: node
     plan: free
-    repo: https://github.com/criss-vevo/CRISS-AI
+    repo: https://github.com/Mselachui03/MSELA-CHUI-XMD
     branch: main
     buildCommand: npm install
     startCommand: npm start
