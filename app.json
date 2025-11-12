@@ -1,10 +1,10 @@
 
 
 {
-  "name": "CRISS-AI",
+  "name": "MSELA-CHUI-XMD",
   "description": "Javascript WhatsApp bot made by ᴄʀɪss ᴠᴇᴠᴏ",
   "logo": "https://res.cloudinary.com/dgy2dutjs/image/upload/v1751624587/url.crissvevo.co.tz/IMG_2353_fze42l.jpg",
-  "keywords": ["CRISS-AI"],
+  "keywords": ["MSELA-CHUI-XMD"],
   "success_url": "/",
 
     "stack": "container",
@@ -25,13 +25,13 @@
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "255780863292"
+      "value": "2560774358600"
     }, 
 
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "ᴄʀɪss ᴠᴇᴠᴏ"
+      "value": "MSELA-CHUI-TEACH"
   }, 
 
      "DELETE_LINKS": {
