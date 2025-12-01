@@ -117,7 +117,7 @@ class HybridConfigManager {
                 GOODBYE_MESSAGE: process.env.GOODBYE_MESSAGE || 'no',
                 AUTO_REJECT_CALL: process.env.AUTO_REJECT_CALL || 'no',
                 WELCOME_MESSAGE: process.env.WELCOME_MESSAGE || 'no',
-                GROUPANTILINK: process.env.GROUPANTILINK || 'yes',
+                GROUPANTILINK: process.env.GROUPANTILINK || 'no',
                 AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || 'no'
             }
         };
@@ -353,13 +353,13 @@ class HybridConfigManager {
 const hybridConfig = new HybridConfigManager();
 module.exports = {
     hybridConfig,
-    session: process.env.SESSION_ID |Bravintech_91zhg| '',
+    session: process.env.SESSION_ID || '',
     sessionId: hybridConfig.getSessionId(),
     PREFIX: process.env.PREFIX || ".",
-    GURL: 'https://whatsapp.com/channel/0029Vb7GAAHInlqGmtHEbD2q',
-    OWNER_NAME: process.env.OWNER_NAME || "𝙈𝙎𝙀𝙇𝘼-𝘾𝙃𝙐𝙄",
+    GURL: 'https://whatsapp.com/channel/0029VbB4nox4Y9lqVl2X8n3m',
+    OWNER_NAME: process.env.OWNER_NAME || "",
     OWNER_NUMBER: process.env.OWNER_NUMBER || "",
-    BOT: process.env.BOT_NAME || '𝙈𝙎𝙀𝙇𝘼-𝘾𝙃𝙐𝙄-XMD',
+    BOT: process.env.BOT_NAME || 'BWM-XMD',
     BWM_XMD: hybridConfig.buildContentLayer(),
     HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
     HEROKU_APY_KEY: process.env.HEROKU_APY_KEY,
@@ -380,7 +380,7 @@ module.exports = {
     get ANTICALL() { return hybridConfig.getSetting('AUTO_REJECT_CALL', 'no'); },
     get WELCOME_MESSAGE() { return hybridConfig.getSetting('WELCOME_MESSAGE', 'no'); },
     get GROUP_ANTILINK2() { return process.env.GROUPANTILINK_DELETE_ONLY || 'yes'; },
-    get GROUP_ANTILINK() { return hybridConfig.getSetting('GROUPANTILINK', 'yes'); },
+    get GROUP_ANTILINK() { return hybridConfig.getSetting('GROUPANTILINK', 'no'); },
     get STATUS_REACT_EMOJIS() { return process.env.STATUS_REACT_EMOJIS || ""; },
     get REPLY_STATUS_TEXT() { return process.env.REPLY_STATUS_TEXT || ""; },
     get AUTO_REACT() { return hybridConfig.getSetting('AUTO_REACT', 'no'); },
