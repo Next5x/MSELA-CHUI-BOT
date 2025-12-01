@@ -1,11 +1,11 @@
 
 
 {
-  "name": "JEEPERS CREEPER",
-  "description": "jeepers creeper developed by jeepers creeper tech",
+  "name": " MSELA CHUI",
+  "description": "msela-chui-xmd developed by mselachui tech",
   "keywords": ["bot", "node", "baileys", "whatsapp"],
   "logo": "https://files.catbox.moe/h4yjwp.jpeg",
-  "repository": "https://github.com/ekitale/maths-project",
+  "repository": "https://github.com/Mselachui03/MSELA-CHUI-XMD",
   "success_url": "/",
   "stack": "heroku-24",
   "env": {
@@ -31,7 +31,7 @@
     },
     "REPLY_STATUS_TEXT": {
       "description": "Enter here your message for your bot to notify people that you have viewed there status",
-      "value": "your status have been viewed successfully by jeepers creeper",
+      "value": "your status have been viewed successfully by 𝙈𝙎𝙀𝙇𝘼-𝘾𝙃𝙐𝙄-XMD",
       "required": false
     },
     "AUTO_READ_STATUS": {
@@ -51,7 +51,7 @@
     },
     "BOT_NAME": {
       "description": "Name for your bot",
-      "value": "JEEPERS CREEPER",
+      "value": " 𝙈𝙎𝙀𝙇𝘼-𝘾𝙃𝙐𝙄",
       "required": false
     },
     "BOT_URL": {
@@ -75,13 +75,13 @@
       "required": false 
     },
     "OWNER_NUMBER": {
-      "description": "Enter your number eg, 254717263689",
+      "description": "Enter your number eg, 260774358600",
       "value": "",
       "required": false 
     },
     "STATUS_REACT_EMOJIS": {
       "description": "Enter your auto like status emojis",
-      "value": "🥰,🤩,💯,💕,😜,😂,🌚,😍,👽,👽,👿",
+      "value": "🥰,🤩,💯,💕,😜,😂,🌚,😍,💥,🫆,🐯,🔥,⚡,🎉",
       "required": false 
     },
     "AUTO_REACT": {
@@ -96,7 +96,7 @@
     },
     "OWNER_NAME": {
       "description": "Owner name",
-      "value": "sir bravin",
+      "value": "mr mselachui",
       "required": false
     },
     "SESSION_ID": {
@@ -176,22 +176,22 @@
     },
     "MENU_USER_LINE": {
       "description": "User line in menu",
-      "value": "│👿",
+      "value": "│😉",
       "required": false
     },
     "MENU_DATE_LINE": {
       "description": "Date line in menu",
-      "value": "│🌚",
+      "value": "│🗓️",
       "required": false
     },
     "MENU_TIME_LINE": {
       "description": "Time line in menu",
-      "value": "│👽",
+      "value": "│⌚",
       "required": false
     },
     "MENU_STATS_LINE": {
       "description": "Stats line in menu",
-      "value": "│🧬",
+      "value": "│⚡",
       "required": false
     },
     "MENU_BOTTOM_DIVIDER": {
