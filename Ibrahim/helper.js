@@ -1,6 +1,6 @@
-const NEWS_LETTER_JID = "120363423408733726@newslatter"; // Replace with your real one
-const BOT_NAME = "𝙈𝙎𝙀𝙇𝘼-𝘾𝙃𝙐𝙄-T𝙑";
-const DEFAULT_THUMBNAIL = "https://files.catbox.moe/pkqe7x.jpeg";
+const NEWS_LETTER_JID = "120363419969992177@newsletter"; // Replace with your real one
+const BOT_NAME = "WHATSAPP BOT";
+const DEFAULT_THUMBNAIL = "https://files.catbox.moe/4n1tap.jpg";
 
 const createContext = (userJid, options = {}) => ({
     contextInfo: {
@@ -21,7 +21,7 @@ const createContext = (userJid, options = {}) => ({
             thumbnailUrl: options.thumbnail || DEFAULT_THUMBNAIL,
             mediaType: 1,
             mediaUrl: options.mediaUrl || undefined,
-            sourceUrl: options.sourceUrl || "https://wa.me/260774358600", // link to bot or business
+            sourceUrl: options.sourceUrl || "https://wa.me/254717263689", // link to bot or business
             showAdAttribution: true,
             renderLargerThumbnail: false 
         }
