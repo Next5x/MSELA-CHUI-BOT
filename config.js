@@ -394,9 +394,9 @@ module.exports = {
     
     
     BOT_URL: process.env.BOT_URL ? process.env.BOT_URL.split(',') : [
-        'https://files.catbox.moe/u2atim.jpeg',
-        'https://files.catbox.moe/u2atim.jpeg ',
-        'https://files.catbox.moe/u2atim.jpeg'
+        'https://files.catbox.moe/pkqe7x.jpeg',
+        'https://files.catbox.moe/pkqe7x.jpeg ',
+        'https://files.catbox.moe/pkqe7x.jpeg'
     ],
     
     MENU_TOP_LEFT: process.env.MENU_TOP_LEFT || "┌─❖",
