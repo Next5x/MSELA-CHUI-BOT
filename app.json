@@ -1,0 +1,58 @@
+{
+  "name": "RAVEN-BOT",
+  "description": "A simple yet complicated WhatsApp bot, ♤Enjoy♡",
+  "keywords": [
+    "bot",
+    "whatsapp",
+    "raven",
+    "whatsapp-stickers",
+    "anime",
+    "whatsapp-bot",
+    "whatsapp-sticker-bot",
+    "whatsapp-botto",
+    "baileys",
+    "baileys-md",
+    "md-bot"
+  ],
+  "website": "https://github.com/HunterNick2/RAVEN-BOT#readme",
+  "repository": "https://github.com/HunterNick2/RAVEN-BOT.git",
+  "logo": "https://files.catbox.moe/duv8ac.jpg",
+  "success_url": "/",
+  "env": {
+    "DEV": {
+      "description": "Enter the Bot number here without + or spaces \",\" Ex: 254114660061,254780147229",
+      "required": true
+    },
+    "HEROKU_API": {
+      "description": "Put a Heroku account Api key here, will be required to update your bot without redeploying again",
+      "required": false
+    },
+    "CODE": {
+      "description": "Country code without +, used for antiforeign feature (e.g., 254)",
+      "value": "254",
+      "required": true
+    },
+    "SESSION": {
+      "description": "Paste your Session ID after pairing the bot (required for authentication)",
+      "required": true
+    },
+    "APP_NAME": {
+      "description": "repeat the appname you entered above, use lowercase letters",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-activestorage-preview"
+    }
+  ],
+  "addons": [
+    "heroku-postgresql"
+  ]
+}
