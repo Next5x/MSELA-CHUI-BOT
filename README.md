@@ -14,7 +14,7 @@
 
 2. `If You Have a Heroku Account`
 
-  - <a align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/timnasax/TIMNASA_TMD2"> <img src="https://img.shields.io/badge/DEPLOY%20NOW-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+  - <a align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Mselachui03/MSELA-CHUI-BOT"> <img src="https://img.shields.io/badge/DEPLOY%20NOW-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
